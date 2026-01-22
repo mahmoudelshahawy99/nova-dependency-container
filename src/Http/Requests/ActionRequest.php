@@ -17,7 +17,7 @@ class ActionRequest extends NovaActionRequest
      *
      * @return void
      */
-    public function validateFields()
+    public function validateFields(): void
     {
         $availableFields = [];
 
